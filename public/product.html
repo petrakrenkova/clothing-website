@@ -4,169 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothing Website</title>
-    <link rel="stylesheet" href="css/home.css">
-    
+    <title>Product - </title>
 
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/product.css">
 </head>
 <body>
+    
+    <nav class="navbar"></nav>
 
-    <nav class="navbar">
-        <div class="nav">
-            <img src="img/dark-logo.png" alt="dark logo" class="brand-logo">
-            <div class="nav-items">
-                <div class="search">
-                    <input type="text" class="search-box" placeholder="search brand, product">
-                    <button class="search-btn">search</button>
-                </div>
-                <a href="#"><img src="img/user.png" alt="user"></a>
-                <a href="#"><img src="img/cart.png" alt="cart"></a>
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="img/product image 1.png" class="active" alt="product">
+                <img src="img/product image 2.png" alt="product">
+                <img src="img/product image 3.png" alt="product">
+                <img src="img/product image 4.png" alt="product">
             </div>
-        </div>
-        <ul class="links-container">
-            <li class="link-items"><a href="#" class="link">home</a></li>
-            <li class="link-items"><a href="#" class="link">women</a></li>
-            <li class="link-items"><a href="#" class="link">men</a></li>
-            <li class="link-items"><a href="#" class="link">kids</a></li>            
-            <li class="link-items"><a href="#" class="link">accessories</a></li>          
-        </ul>
-    </nav>
+        </div>    
+        <div class="details">
+            <h2 class="product-brand">calvin klein</h2>
+            <p class="product-short-des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <span class="product-price">$99</span>
+            <span class="product-actual-price">$200</span>
+            <span class="product-discount">( 50% off )</span>
 
-    <!-- hero section -->
-    <header class="hero-section">
-        <div class="content">
-            <img src="img/light-logo.png" class="logo" alt="logo">
-            <p class="sub-heading">best fashion collection of all time</p>
-        </div>
-    </header>
+            <p class="product-sub-heading">select size</p>
 
-    <!-- card-container -->
-    <section class="product">
-        <h2 class="product-category">best selling</h2>
-        <button class="pre-btn"><img src="img/arrow.png" alt="arrow"></button>
-        <button class="nxt-btn"><img src="img/arrow.png" alt="arrow"></button>
-        <div class="product-container">
-            <div class="product-card">
-                <div class="product-image">
-                  <span class="discount-tag">50% off</span>  
-                  <img src="img/card1.png" class="product-thumb" alt="product image">
-                  <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                  <span class="discount-tag">50% off</span>  
-                  <img src="img/card2.png" class="product-thumb" alt="product image">
-                  <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                  <span class="discount-tag">50% off</span>  
-                  <img src="img/card3.png" class="product-thumb" alt="product image">
-                  <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                  <span class="discount-tag">50% off</span>  
-                  <img src="img/card4.png" class="product-thumb" alt="product image">
-                  <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                  <span class="discount-tag">50% off</span>  
-                  <img src="img/card5.png" class="product-thumb" alt="product image">
-                  <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                  <span class="discount-tag">50% off</span>  
-                  <img src="img/card6.png" class="product-thumb" alt="product image">
-                  <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                  <span class="discount-tag">50% off</span>  
-                  <img src="img/card7.png" class="product-thumb" alt="product image">
-                  <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                  <span class="discount-tag">50% off</span>  
-                  <img src="img/card8.png" class="product-thumb" alt="product image">
-                  <button class="card-btn">add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span>
-                    <span class="actual-price">$40</span>
-                </div>
-            </div>
-        </div>
-    </section>  
+            <input type="radio" name="size" value="s" checked hidden id="s-size">
+            <label for="s-size" class="size-radio-btn check">s</label>
 
-    <!-- collections -->
-    <section class="collection-container">
-        <a href="#" class="collection">
-            <img src="img/women-collection.png" alt="women collection">
-            <p class="collection-title">women <br> apparels </p>
-        </a>
-        <a href="#" class="collection">
-            <img src="img/men-collection.png" alt="men collection">
-            <p class="collection-title">men <br> apparels </p>
-        </a>
-        <a href="#" class="collection">
-            <img src="img/accessories-collection.png" alt="accessories">
-            <p class="collection-title">accessories</p>
-        </a>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">m</label>
+
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">l</label>
+
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">xl</label>
+
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+            <button class="btn cart-btn">add to cart</button>
+            <button class="btn">add to wishlist</button>
+        </div>  
+    </section>
+
+    <section class="detail-des">
+        <h2 class="heading">description</h2>
+        <p class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque a est explicabo nobis facere. Vitae voluptas cumque ipsum, ducimus nihil id unde dignissimos et qui quis laboriosam nesciunt! Aliquam ab praesentium esse nemo, dolores dignissimos ut eveniet nam quaerat, repellat tempora. Dolore dicta harum ipsa autem sed, labore, deleniti soluta eos a vel odit sunt nulla officiis facere quaerat accusantium. Iure quasi ea corrupti fugiat inventore! Dignissimos eligendi, dolore magni obcaecati nihil deleniti quisquam error vel aliquam voluptates, soluta exercitationem reprehenderit iure sunt deserunt numquam totam quis consectetur molestias praesentium sapiente repellat. Optio, vel numquam. Ut, officiis maiores. Cumque, atque blanditiis, culpa quam sint exercitationem nesciunt maiores sunt impedit illum in adipisci provident ea assumenda excepturi quibusdam, aperiam delectus voluptatem consectetur a praesentium porro inventore. Vitae, modi impedit cumque porro ipsam rerum praesentium eligendi rem vel dolor adipisci. Eaque a nam fuga consectetur incidunt minima optio sapiente ducimus, iste voluptas quibusdam, laboriosam quae reprehenderit placeat repellendus ipsum voluptatibus dolor sit velit fugit aliquid, tenetur repellat? Quis debitis impedit similique molestias aliquam repudiandae. Facilis beatae architecto esse enim saepe ut distinctio et ipsum magnam, ipsam laboriosam natus mollitia minima quisquam quidem tempora unde a ipsa! Doloremque, laboriosam eveniet provident autem incidunt veniam expedita nam, eligendi dolorum ab temporibus ratione obcaecati quia nostrum in? Eveniet asperiores libero perspiciatis voluptas esse tempora deleniti. Asperiores odit officiis similique ipsum, tempore, perferendis autem harum nulla, necessitatibus culpa nostrum eos mollitia consectetur nesciunt? Possimus voluptate odit ipsam esse sint dolor atque assumenda quidem, nulla cumque facere ratione blanditiis quis cupiditate, aut corporis id quia consequuntur ipsum quam doloribus pariatur, dignissimos sit? Dolor quaerat animi reprehenderit non ad deleniti quo ducimus quae, voluptas optio pariatur officia a beatae magni, minus eos earum. Vel, inventore, reprehenderit voluptatum nisi harum placeat vitae unde et eum aspernatur, doloribus facere.</p>
+
     </section>
 
     <!-- card-container -->
@@ -283,6 +171,7 @@
     </section>  
 
     <!-- card-container -->
+
     <section class="product">
         <h2 class="product-category">shoes</h2>
         <button class="pre-btn"><img src="img/arrow.png" alt="arrow"></button>
@@ -393,61 +282,13 @@
                 </div>
             </div>
         </div>
-    </section>  
+    </section>
 
-    <footer>
-        <div class="footer-content">
-            <img src="img/light-logo.png" class="logo" alt="logo">
-            <div class="footer-ul-container">
-                <ul class="category">
-                    <li class="category-title">men</li>
-                    <li><a href="#" class="footer-link">t-shirts</a></li>
-                    <li><a href="#" class="footer-link">sweatshirts</a></li>
-                    <li><a href="#" class="footer-link">shirts</a></li>
-                    <li><a href="#" class="footer-link">jeans</a></li>
-                    <li><a href="#" class="footer-link">trousers</a></li>
-                    <li><a href="#" class="footer-link">shoes</a></li>
-                    <li><a href="#" class="footer-link">casuals</a></li>
-                    <li><a href="#" class="footer-link">formals</a></li>
-                    <li><a href="#" class="footer-link">sports</a></li>
-                    <li><a href="#" class="footer-link">watch</a></li>
-                </ul>
-                <ul class="category">
-                    <li class="category-title">women</li>
-                    <li><a href="#" class="footer-link">t-shirts</a></li>
-                    <li><a href="#" class="footer-link">sweatshirts</a></li>
-                    <li><a href="#" class="footer-link">shirts</a></li>
-                    <li><a href="#" class="footer-link">jeans</a></li>
-                    <li><a href="#" class="footer-link">trousers</a></li>
-                    <li><a href="#" class="footer-link">shoes</a></li>
-                    <li><a href="#" class="footer-link">casuals</a></li>
-                    <li><a href="#" class="footer-link">formals</a></li>
-                    <li><a href="#" class="footer-link">sports</a></li>
-                    <li><a href="#" class="footer-link">watch</a></li>
-                </ul>
-            </div> 
-        </div>
-        <p class="footer-title">about company</p>
-            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corporis error ea perspiciatis quis officiis iusto necessitatibus eum delectus dolor, repellat similique id veniam atque, eveniet quia ex quaerat consectetur. Hic quaerat soluta dolorum ipsum, numquam facere qui consequatur ratione saepe rerum assumenda perspiciatis ex molestias facilis sit id quas repellendus natus. Soluta maiores, hic eligendi incidunt itaque pariatur obcaecati at praesentium, vitae reiciendis ipsum eos voluptates ex adipisci quis dolorem debitis sed. Perferendis, beatae neque, incidunt quas ullam perspiciatis molestias minima voluptatem ducimus ex, laborum est! Temporibus, blanditiis excepturi alias dolorem soluta vitae enim quam corrupti quia dolor harum.</p>
-            <p class="info">support emails - help@clothing.com, customersupport@clothing.com</p>
-            <p class="info">telephone - 180 00 00 001, 180 00 00 002</p>
-            <div class="footer-social-container">
-                <div>
-                    <a href="#" class="social-link">terms & services</a>
-                    <a href="#" class="social-link">privacy page</a>
-                </div>
-                <div>
-                    <a href="#" class="social-link">instagram</a>
-                    <a href="#" class="social-link">facebook</a>
-                    <a href="#" class="social-link">twitter</a>
-                </div>
-            </div>
-            <p class="footer-credit">Clothing, Best apparels online store</p>
-    </footer>
-    
+    <footer></footer>
+
     <script src="js/nav.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/home.js"></script>
-    
+    <script src="js/product.js"></script>
 </body>
 </html>
